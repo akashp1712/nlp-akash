@@ -140,7 +140,6 @@ def _score_sentences(tf_idf_matrix) -> dict:
     Basic algorithm: adding the TF frequency of every non-stop word in a sentence divided by total no of words in a sentence.
     :rtype: dict
     """
-    # TODO: Can you make this multiprocess compatible in python?
 
     sentenceValue = {}
 
@@ -180,8 +179,6 @@ def _generate_summary(sentences, sentenceValue, threshold):
             summary += " " + sentence
             sentence_count += 1
 
-    # TODO: check if the sentences in the summarization is in the original order of occurrence.
-
     return summary
 
 
@@ -198,6 +195,7 @@ def run_summarization(text):
     # 1 Sentence Tokenize
     sentences = sent_tokenize(text)
     total_documents = len(sentences)
+    #print(sentences)
 
     # 2 Create the Frequency matrix of the words in each sentence.
     freq_matrix = _create_frequency_matrix(sentences)
@@ -241,5 +239,3 @@ def run_summarization(text):
 if __name__ == '__main__':
     result = run_summarization(text_str)
     print(result)
-
-    # TODO: remove special characters as word while constructing a frequency table. i.e " : , .
