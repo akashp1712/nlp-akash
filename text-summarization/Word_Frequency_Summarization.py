@@ -73,7 +73,8 @@ def _score_sentences(sentences, freqTable) -> dict:
                 else:
                     sentenceValue[sentence[:10]] = freqTable[wordValue]
 
-        sentenceValue[sentence[:10]] = sentenceValue[sentence[:10]] / word_count_in_sentence_except_stop_words
+        if sentence[:10] in sentenceValue:
+            sentenceValue[sentence[:10]] = sentenceValue[sentence[:10]] / word_count_in_sentence_except_stop_words
 
         '''
         Notice that a potential issue with our score algorithm is that long sentences will have an advantage over short sentences. 
