@@ -10,3 +10,4 @@ Algorithm implementation:
     * ##### Article: [Text summarization in 5 steps using NLTK](https://becominghuman.ai/text-summarization-in-5-steps-using-nltk-65b21e352b65) 
   
 * [**TF_IDf_Summarization:**](https://github.com/akashp1712/nlp-akash/blob/master/text-summarization/TF_IDF_Summarization.py) Summarization implementation using TF-IDF algorithm.
+   * ##### Article: [Text Summarization using TF-IDF](https://towardsdatascience.com/text-summarization-using-tf-idf-e64a0644ace3) 
