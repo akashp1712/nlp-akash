@@ -11,3 +11,5 @@ Algorithm implementation:
   
 * [**TF_IDf_Summarization:**](https://github.com/akashp1712/nlp-akash/blob/master/text-summarization/TF_IDF_Summarization.py) Summarization implementation using TF-IDF algorithm.
    * ##### Article: [Text Summarization using TF-IDF](https://towardsdatascience.com/text-summarization-using-tf-idf-e64a0644ace3) 
+
+* [**TextRank for Sentences:**](https://github.com/akashp1712/nlp-akash/blob/master/text-summarization/text_rank_sentences.py) Fetch top sentences using TextRank Algorithm.
