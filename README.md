@@ -13,3 +13,7 @@ Algorithm implementation:
    * ##### Article: [Text Summarization using TF-IDF](https://towardsdatascience.com/text-summarization-using-tf-idf-e64a0644ace3) 
 
 * [**TextRank for Sentences:**](https://github.com/akashp1712/nlp-akash/blob/master/text-summarization/text_rank_sentences.py) Fetch top sentences using TextRank Algorithm.
+
+   * ##### Article: [Sentence Extraction in Python using TextRank Algorithm](https://medium.com/analytics-vidhya/sentence-extraction-using-textrank-algorithm-7f5c8fd568cd) 
+
+
