@@ -1,4 +1,5 @@
 import re
+from pprint import pprint
 
 import numpy as np
 from nltk import sent_tokenize, word_tokenize
@@ -109,7 +110,7 @@ class TextRank4Sentences():
 
         # Normalize matrix by column
         norm = np.sum(sm, axis=0)
-        sm_norm = np.divide(sm, norm, where=norm != 0)  # this is ignore the 0 element in norm
+        sm_norm = np.divide(sm, norm, where=norm != 0)  # this is to ignore the 0 element in norm
 
         return sm_norm
 
@@ -137,7 +138,7 @@ class TextRank4Sentences():
 
     def get_top_sentences(self, number=5):
 
-        top_sentences = []
+        top_sentences = {}
 
         if self.pr_vector is not None:
 
@@ -147,9 +148,10 @@ class TextRank4Sentences():
 
             index = 0
             for epoch in range(number):
+                print (str(sorted_pr[index]) + " : " + str(self.pr_vector[sorted_pr[index]]))
                 sent = self.sentences[sorted_pr[index]]
                 sent = normalize_whitespace(sent)
-                top_sentences.append(sent)
+                top_sentences[sent] = self.pr_vector[sorted_pr[index]]
                 index += 1
 
         return top_sentences
@@ -163,14 +165,15 @@ class TextRank4Sentences():
         similarity_matrix = self._build_similarity_matrix(tokenized_sentences, stop_words)
 
         self.pr_vector = self._run_page_rank(similarity_matrix)
+        print(self.pr_vector)
 
 
 text_str = '''
-    Those Who Are Resilient Stay In The Game Longer *
+    Those Who Are Resilient Stay In The Game Longer
     “On the mountains of truth you can never climb in vain: either you will reach a point higher up today, or you will be training your powers so that you will be able to climb higher tomorrow.” — Friedrich Nietzsche
     Challenges and setbacks are not meant to defeat you, but promote you. However, I realise after many years of defeats, it can crush your spirit and it is easier to give up than risk further setbacks and disappointments. Have you experienced this before? To be honest, I don’t have the answers. I can’t tell you what the right course of action is; only you will know. However, it’s important not to be discouraged by failure when pursuing a goal or a dream, since failure itself means different things to different people. To a person with a Fixed Mindset failure is a blow to their self-esteem, yet to a person with a Growth Mindset, it’s an opportunity to improve and find new ways to overcome their obstacles. Same failure, yet different responses. Who is right and who is wrong? Neither. Each person has a different mindset that decides their outcome. Those who are resilient stay in the game longer and draw on their inner means to succeed.
     '''
 
 tr4sh = TextRank4Sentences()
 tr4sh.analyze(text_str)
-print(tr4sh.get_top_sentences(5))
+pprint(tr4sh.get_top_sentences(5), width=1, depth=2)
