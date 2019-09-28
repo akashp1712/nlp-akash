@@ -17,3 +17,8 @@ Algorithm implementation:
    * ##### Article: [Sentence Extraction in Python using TextRank Algorithm](https://medium.com/analytics-vidhya/sentence-extraction-using-textrank-algorithm-7f5c8fd568cd) 
 
 
+
+Project
+--------------------
+#### And end-to-end project is created using WordFrequency Algorithm. Please find the followin repository:
+##### [https://github.com/akashp1712/summarize_webpage](https://github.com/akashp1712/summarize_webpage) Summarize Webpage
