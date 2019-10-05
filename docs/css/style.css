@@ -77,7 +77,7 @@ h6 a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0;
@@ -92,11 +92,6 @@ img.aligncenter {
     padding: 0px;
     border: 0px;
     background: none;
-}
-
-ul {
-    padding: 0;
-    list-style: none;
 }
 
 ol li ul li {
@@ -187,7 +182,7 @@ p {
 }
 
 .section {
-    padding: 180px 0;
+    padding: 60px 0;
     position: relative;
     display: block;
 }
