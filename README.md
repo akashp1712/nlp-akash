@@ -3,7 +3,7 @@
 Learning Notes: [nlp-learning](https://github.com/akashp1712/nlp-akash/blob/master/nlp-learning.md)
 
 <p align="center">
-<img src="./screens/nlp.png" alt="screen_webpage_1" width="900" height="450"/>
+<img src="./docs/images/nlp.png" alt="Natural Language Processing" width="900" height="450"/>
 <p>
 
 Text Summarization
