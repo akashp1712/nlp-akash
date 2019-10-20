@@ -1,9 +1,9 @@
 # nlp-akash
-### Natural Language Processing notes and implementations<br/>
+## Natural Language Processing notes and implementations<br/>
 Learning Notes: [nlp-learning](https://github.com/akashp1712/nlp-akash/blob/master/nlp-learning.md)
 
 <p align="center">
-<img src="./docs/images/nlp.png" alt="Natural Language Processing" width="900" height="450"/>
+<img src="./docs/images/nlp.jpg" alt="Natural Language Processing" width="900" height="450"/>
 <p>
 
 Text Summarization
