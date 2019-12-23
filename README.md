@@ -22,7 +22,7 @@ Algorithm implementation:
 
 
 
-Project
+Projects
 --------------------
 #### And end-to-end project is created using WordFrequency Algorithm. Please find the followin repository:
 ##### [https://github.com/akashp1712/summarize_webpage](https://github.com/akashp1712/summarize_webpage) Summarize Webpage
