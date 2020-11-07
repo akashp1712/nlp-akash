@@ -15,7 +15,7 @@ Learning Notes: [nlp-learning](https://github.com/akashp1712/nlp-akash/blob/mast
    Article: [**Text summarization in 5 steps using NLTK**](https://becominghuman.ai/text-summarization-in-5-steps-using-nltk-65b21e352b65) 
 
 #### 2. Summarization implementation using TF-IDF algorithm
-   Streamlit: [Find the demo app on streamlit](https://share.streamlit.io/akashp1712/streamlit-apps/main/text_summarization_streamlit.py) <br/>
+   Streamlit: [**Find the demo app on streamlit**](https://share.streamlit.io/akashp1712/streamlit-apps/main/text_summarization_streamlit.py) <br/>
    Code: [**TF_IDf_Summarization:**](https://github.com/akashp1712/nlp-akash/blob/master/text-summarization/TF_IDF_Summarization.py) <br/>
    Article: [**Text Summarization using TF-IDF**](https://towardsdatascience.com/text-summarization-using-tf-idf-e64a0644ace3)
 
