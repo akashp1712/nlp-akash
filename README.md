@@ -12,16 +12,16 @@ Learning Notes: [nlp-learning](https://github.com/akashp1712/nlp-akash/blob/mast
 --------------------
 #### 1. Summarization implementation using word frequency.
    Code: [**Word_Frequency_Summarization:**](https://github.com/akashp1712/nlp-akash/blob/master/text-summarization/Word_Frequency_Summarization.py) <br/>
-   Article: [**Text summarization in 5 steps using NLTK**](https://becominghuman.ai/text-summarization-in-5-steps-using-nltk-65b21e352b65) 
+   Article: [**Text summarization in 5 steps using NLTK**](https://becominghuman.ai/text-summarization-in-5-steps-using-nltk-65b21e352b65){:target="_blank"}
 
 #### 2. Summarization implementation using TF-IDF algorithm
-   Streamlit: [**Find the demo app on streamlit**](https://share.streamlit.io/akashp1712/streamlit-apps/main/text_summarization_streamlit.py) <br/>
+   Streamlit: [**Find the demo app on streamlit**](https://share.streamlit.io/akashp1712/streamlit-apps/main/text_summarization_streamlit.py){:target="_blank"} <br/>
    Code: [**TF_IDf_Summarization:**](https://github.com/akashp1712/nlp-akash/blob/master/text-summarization/TF_IDF_Summarization.py) <br/>
-   Article: [**Text Summarization using TF-IDF**](https://towardsdatascience.com/text-summarization-using-tf-idf-e64a0644ace3)
+   Article: [**Text Summarization using TF-IDF**](https://towardsdatascience.com/text-summarization-using-tf-idf-e64a0644ace3){:target="_blank"}
 
 #### 3. Fetch top sentences using TextRank Algorithm
    Code: [**TextRank for Sentences:**](https://github.com/akashp1712/nlp-akash/blob/master/text-summarization/text_rank_sentences.py) <br/>
-   Article: [**Sentence Extraction in Python using TextRank Algorithm**](https://medium.com/analytics-vidhya/sentence-extraction-using-textrank-algorithm-7f5c8fd568cd) 
+   Article: [**Sentence Extraction in Python using TextRank Algorithm**](https://medium.com/analytics-vidhya/sentence-extraction-using-textrank-algorithm-7f5c8fd568cd){:target="_blank"}
 
 
 --------------------
