@@ -2,6 +2,8 @@
 ## Natural Language Processing notes and implementations<br/>
 Learning Notes: [nlp-learning](https://github.com/akashp1712/nlp-akash/blob/master/nlp-learning.md)
 
+#### Note: if you like my work, please support by adding yourself for [LessenText](https://yep.so/p/lessentextai?ref=github) Beta program.
+
 <p align="center">
 <img src="./docs/images/nlp.jpg" alt="Natural Language Processing" width="900" height="450"/>
 <p>
